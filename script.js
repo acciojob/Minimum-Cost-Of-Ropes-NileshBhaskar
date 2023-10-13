@@ -25,9 +25,9 @@ function calculateMinCost() {
 
 	let total = 0;
 	for(let i of ans){
-        let pElement = document.createElement("p");
-      pElement.textContent = i
-    document.getElementById("result").appendChild(pElement);
+    //     let pElement = document.createElement("p");
+    //   pElement.textContent = i
+    // document.getElementById("result").appendChild(pElement);
 		total += i;
 	}
 	
