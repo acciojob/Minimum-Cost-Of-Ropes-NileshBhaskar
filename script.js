@@ -1,6 +1,9 @@
 function calculateMinCost() {
   //your code here
   let text = document.getElementById("rope-lengths").value;
+	if(!text){
+		return ;
+	}
   let textArr = text.split(",");
   let input = [];
   for(let i of textArr){
