@@ -18,14 +18,20 @@ function calculateMinCost() {
 		input.push(x+y);
 		
 		input.sort((a,b)=>a-b);
+    // let pElement = document.createElement("p");
+      // pElement.textContent = `${ans}`
+      // document.getElementById("result").appendChild(pElement);
 	}
 
 	let total = 0;
-	for(let i of input){
+	for(let i of ans){
+        let pElement = document.createElement("p");
+      pElement.textContent = i
+    document.getElementById("result").appendChild(pElement);
 		total += i;
 	}
 	// total += input[0];
 
-	document.getElementById("result").textContent = total ;
+	// document.getElementById("result").textContent = total ;
   
 }  
