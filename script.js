@@ -30,8 +30,8 @@ function calculateMinCost() {
     document.getElementById("result").appendChild(pElement);
 		total += i;
 	}
-	// total += input[0];
+	
 
-	// document.getElementById("result").textContent = total ;
+	document.getElementById("result").textContent = total ;
   
 }  
